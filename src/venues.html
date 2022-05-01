@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud - Forestillinger</title>
     <link rel="stylesheet" href="tailwind.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <script src="mixitup.min.js" defer ></script>
-</head>
-  <body>
+  </head>
+  
+    <body>
     
 
     <header>
@@ -81,73 +81,34 @@
          </div>
          </nav>
         </header>
-    <main class="sm:pt-14 lg:pt-14 mixitupelementscontainer">
+    <main class="sm:pt-14 mixitupelementscontainer lg:pt-14">
       <div>
         <div class="sm:h-56 lg:h-72  w-screen bg-act-9   flex lg:flex-row sm:flex-col items-center justify-evenly ">
      
-          <a href="programme.html"  class="lg:h-full sm:h-1/2 sm:w-screen lg:w-1/2 sm:border-r-0 sm:border-b-2 lg:border-b-0 lg:border-r-2 border-black  flex items-center justify-center" >   <h3 class="text-6xl text-red-pr sm:text-5xl lg:text-6xl font-extrabold font-opensans ">Spilledag</h3></a>
-         <a href="venues.html" class="flex items-center lg:h-full sm:h-1/2  justify-center w-1/2 "> <h3 class="sm:text-5xl lg:text-6xl text-black hover:text-red-pr  font-extrabold font-opensans ">Lokaler</h3></a>
+          <a href="programme.html"  class="lg:h-full sm:h-1/2 sm:w-screen lg:w-1/2 sm:border-r-0 sm:border-b-2 lg:border-b-0 lg:border-r-2 border-black  flex items-center justify-center" >   <h3 class="text-6xl text-black hover:text-red-pr  sm:text-5xl lg:text-6xl font-extrabold font-opensans ">Spilledag</h3></a>
+         <a href="venues.html" class="flex items-center lg:h-full sm:h-1/2  justify-center w-1/2 "> <h3 class="sm:text-5xl lg:text-6xl text-red-pr  font-extrabold font-opensans ">Lokaler</h3></a>
      </div>
-      <div class="w-full  h-16 flex items-center justify-evenly ">
-     <form class="w-full  h-16 flex items-center justify-evenly"> 
-         <button  type="button" data-filter=".tir"  class="w-1/5  h-16 text-black focus:text-white flex lg:justify-between sm:justify-center lg:flex-row lg:items-start sm:items-center sm:flex-col  border-t-2 border-b-2 focus:bg-red-pr border-black border-r-0 hover:bg-red-pr hover:bg-opacity-40">
-          <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">Tir.</h3>
-          <h3 class=" sm:text-2xl   lg:text-6xl  font-extrabold lg:mr-2  ">2.</h3>
-        </button>
-        <button  type="button" data-filter=".ons"   class="w-1/5  h-16 text-black focus:text-white flex lg:justify-between sm:justify-center lg:flex-row lg:items-start sm:items-center sm:flex-col  border-2 focus:bg-red-pr  border-black border-r-0 hover:bg-red-pr hover:bg-opacity-40">
-          <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">ONS.</h3>
-          <h3 class=" sm:text-2xl  lg:text-6xl  font-extrabold lg:mr-2 ">3.</h3>
-        </button>
-        <button  type="button" data-filter=".tor"   class="w-1/5 h-16 text-black focus:text-white flex lg:justify-between sm:justify-center lg:flex-row lg:items-start sm:items-center sm:flex-col   border-2 focus:bg-red-pr  border-black border-r-0 hover:bg-red-pr hover:bg-opacity-40">
-          <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">TOR.</h3>
-          <h3 class=" sm:text-2xl lg:text-6xl  font-extrabold lg:mr-2  ">4.</h3>
-        </button>
-        <button  type="button" data-filter=".fre"   class="w-1/5  h-16 flex lg:flex-row lg:items-start sm:items-center sm:flex-col text-black focus:text-white lg:justify-between sm:justify-center focus:bg-red-pr hover:bg-red-pr hover:bg-opacity-40 border-2 border-black border-r-0">
-          <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">FRE.</h3>
-          <h3 class=" sm:text-2xl   lg:text-6xl  font-extrabold lg:mr-2">5.</h3>
-        </button>
-        <button   type="button" data-filter=".lor"   class="w-1/5  h-16 flex text-black focus:text-white lg:justify-between sm:justify-center lg:flex-row lg:items-start sm:items-center sm:flex-col  focus:bg-red-pr border-2 border-black  border-r-0 hover:bg-red-pr hover:bg-opacity-40">
-          <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">LØR.</h3>
-          <h3 class=" sm:text-2xl   lg:text-6xl  font-extrabold lg:mr-2  ">6.</h3>
-        </button></form> 
+      <div class="w-full  h-auto flex sm:flex-col lg:flex-row items-center justify-evenly ">
+        <form class="w-full  h-auto flex sm:flex-col lg:flex-row items-center justify-evenly "> 
+          <button  type="button" data-filter=".ane"  class="sm:w-full lg:w-1/5  sm:h-14 lg:h-16 text-black focus:text-white flex sm:justify-center lg:items-start sm:items-center lg:justify-between border-t-2 border-b-2 focus:bg-red-pr border-black border-r-0 hover:bg-red-pr hover:bg-opacity-40">
+           <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">Anemoen</h3>
+         </button>
+         <button  type="button" data-filter=".chr"   class="sm:w-full lg:w-1/5 sm:h-14 lg:h-16  text-black focus:text-white flex sm:justify-center lg:items-start sm:items-center  lg:justify-between lg:border-2 sm:border-0  focus:bg-red-pr  border-black lg:border-r-0 hover:bg-red-pr hover:bg-opacity-40">
+           <h3 class=" font-extrabold sm:text-ml sm:text-center lg:text-left lg:text-xl sm:ml-1 lg:ml-2">Christianshavn<br>Beboerhus</h3>
+         </button>
+         <button  type="button" data-filter=".vox"   class="sm:w-full lg:w-1/5 sm:h-14 lg:h-16  text-black focus:text-white flex sm:justify-center lg:items-start sm:items-center  lg:justify-between sm:border-0 sm:border-t-2 lg:border-2 focus:bg-red-pr  border-black lg:border-r-0 hover:bg-red-pr hover:bg-opacity-40">
+           <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:text-center lg:text-left  sm:ml-1 lg:ml-2">VOX<br>Teaterhuset</h3>
+         </button>
+         <button  type="button" data-filter=".xen"   class="sm:w-full lg:w-1/5  sm:h-14 lg:h-16  flex text-black focus:text-white sm:justify-center lg:items-start sm:items-center  lg:justify-between focus:bg-red-pr hover:bg-red-pr hover:bg-opacity-40 border-2 border-black border-r-0">
+           <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:text-center lg:text-left  sm:ml-1 lg:ml-2">Xenon<br>Teaterhuset</h3>
+         </button>
+         <button   type="button" data-filter=".zep"   class="sm:w-full lg:w-1/5 sm:h-14 lg:h-16  flex text-black focus:text-white sm:justify-center lg:items-start sm:items-center  lg:justify-between focus:bg-red-pr sm:border-0 lg:border-2 border-black sm:border-b-2 lg:border-r-0 hover:bg-red-pr hover:bg-opacity-40">
+           <h3 class=" font-extrabold sm:text-ml lg:text-xl sm:ml-1 lg:ml-2">Zeppelin</h3>
+         </button></form> 
       </div>
     </div>
 
-  <div class="mix fre ons ">
-      <div class="border-black h-auto   w-screen flex flex-row">
-        <div class=" w-72 h-96 flex justify-between flex-col ">
-          <div class="ml-2 mt-4">
-            <p class="text-black lg:text-5xl sm:text-2xl font-courier font-medium">08.30</p>
-            <p class="text-gray-400 lg:text-ml sm:text-sm font-courier font-medium">50 min</p>
-
-          </div>
-          <div class="ml-2 mb-4">
-            <p class="ml-2 text-gray-400 lg:text-ml sm:text-sm font-courier font-medium">Christianshavn<br>Beboerhus</p>
-            <p class="ml-2 text-gray-600 mt-1 text-sm font-courier underline font-medium">Se på kort</p>
-
-
-          </div>
-        </div>
-        <div class=" w-1/4 sm:hidden lg:flex h-96 bg-act-4 bg-cover bg-center border-r-2 border-l-2 border-black"></div>
-
-        <div class="lg:w-3/5 sm:w-full h-96  flex flex-col evenly">
-          <div class="h-3/4">
-            <h3 class="font-courier lg:text-5xl sm:text-2xl w-3/4 mt-4 ml-4 font-medium">Skammer du dig nu?</h3>
-            <p class="font-courier w-3/4 lg:text-sm sm:text-xs mt-2 ml-4 text-gray-600">“Skammer du dig nu?” er en forestilling om at forsvinde ned i skammens dyb, for at opdage at man må se sin egen skam i øjnene for måske, bare et øjeblik, at slippe den helt. Tør du se din egen skam i øjnene? </p>
-          </div>
-          <div class=" h-1/4 flex items-end pb-4 justify-end">
-           <a href="act1.html"> <button class="lg:h-12 sm:h-8 mr-4 shadow-2xl lg:w-44 sm:w-32 hover:bg-red-pr hover:text-white hover:border-2 hover:border-red-pr bg-white border-2 border-red-pr rounded-xl  font-opensans text-red-pr sm:text-xl sm:text-lg flex items-center shadow-2xl justify-center">LÆS MER
-            </button></a>
-           <a href="tickets.html"> <button class="lg:h-12 sm:h-8 mr-4 shadow-2xl lg:w-44 sm:w-32 hover:bg-white hover:text-red-pr hover:border-2 hover:border-red-pr bg-red-pr rounded-xl  font-opensans text-white sm:text-xl sm:text-lg flex items-center shadow-2xl justify-center">BILLETTER
-            </button></a>
-          </div>
-
-    
-        </div>
-      </div>
-      <div class="w-screen border-b-2  border-black"></div>
-    </div>
-    <div class="mix tor ons ons">
+    <div class="mix vox">
       <div class="border-black h-auto   w-screen flex flex-row">
         <div class=" w-72 h-96 flex justify-between flex-col ">
           <div class="ml-2 mt-4">
@@ -181,7 +142,7 @@
       </div>
       <div class="w-screen border-b-2 border-black"></div>
     </div>
-    <div class="mix ons lor tor">
+    <div class="mix xen">
       <div class="border-black h-auto   w-screen flex flex-row">
         <div class=" w-72 h-96 flex justify-between flex-col ">
           <div class="ml-2 mt-4">
@@ -215,7 +176,7 @@
       </div>
       <div class="w-screen border-b-2 border-black"></div>
     </div>
-    <div class="mix ons tir lor">
+    <div class="mix zep">
       <div class="border-black h-auto   w-screen flex flex-row">
         <div class=" w-72 h-96 flex justify-between flex-col ">
           <div class="ml-2 mt-4">
@@ -249,7 +210,7 @@
       </div>
       <div class="w-screen border-b-2 border-black"></div>
     </div>
-    <div class="mix ons tir fre">
+    <div class="mix vox">
       <div class="border-black h-auto   w-screen flex flex-row">
         <div class=" w-72 h-96 flex justify-between flex-col ">
           <div class="ml-2 mt-4">
@@ -283,7 +244,7 @@
       </div>
       <div class="w-screen border-b-2 border-black"></div>
     </div>
-    <div class="mix lor fre">
+    <div class="mix ane">
       <div class="border-black h-auto   w-screen flex flex-row">
         <div class=" w-72 h-96 flex justify-between flex-col ">
           <div class="ml-2 mt-4">
@@ -317,12 +278,11 @@
       </div>
       <div class="w-screen border-b-2 border-black"></div>
     </div>
-
     
   
     <div>
       <marquee class="loop  h-16 w-screen  border-b-2 border-black flex items-center">
-        <h2 class="text-black text-5xl font-opensans font-extrabold">AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span></h2>
+        <h2 class="text-black text-5xl font-opensans font-extrabold">AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">TEATER - KULTUR</span> <span class="text-red-pr">·</span> AUG 02 - AUG 06 <span class="text-red-pr">·</span> <span class="text-blue-sc">VILDSKUD</span></h2>
         
       </marquee>
     </div>
@@ -353,10 +313,10 @@
       <p class="text-lg text-black font-opensans ">@2022 VILDSKUD</p>
   </div>
   </footer>
-
+ 
     <script type="module" src="index.js"></script>
     <script src="mixitupinit.js" defer></script>
-   
+
   </body>
 </html>
 

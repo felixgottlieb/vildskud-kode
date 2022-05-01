@@ -1,3 +1,5 @@
+
+
 const mediaQuery = window.matchMedia("(max-width: 1000px)");
 if (mediaQuery.matches) {
   document
@@ -25,3 +27,5 @@ exitButton.addEventListener("click", () => {
   document.querySelector("#burgermenu").classList.remove("hidden");
   document.querySelector("#fullscreenmenu").classList.add("hidden");
 });
+
+

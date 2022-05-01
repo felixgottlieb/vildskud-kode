@@ -30,6 +30,8 @@ module.exports = {
         'act-5': "url('./img/confront-collective.png')",
         'act-6': "url('./img/panta-reje.jpeg')",
         'act-7': "url('./img/bg-bg-01.svg')",
+        'act-8': "url('./img/bg-bg-1.2.svg')",
+        'act-9': "url('./img/bg-bg-01.2.svg')",
       
       },
       fontFamily: {
